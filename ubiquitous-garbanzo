@@ -1,0 +1,17 @@
+        var newCollage = collage
+        newCollage.dependencies.remove(at: index)
+        
+        return newCollage
+    }
+    
+}
+
+        newState.selectedPointsIDs.update(with: pointID)
+        
+        return newState
+    }
+    
+    private func onTwoFingersTranslate(_ gestureState: GestureType.GestureState<CGPoint>,
+                                       in state: AppState) -> AppState {
+        
+        var newState = state
